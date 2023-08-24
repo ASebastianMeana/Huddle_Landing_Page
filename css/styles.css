@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --font-family: 'Open Sans', sans-serif;
+    --font-family: 'Poppins', sans-serif;
+}
+
+.l-section{
+    width: auto;
+    height: 100%;
+}
+
+.l-main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: var(--Violet);
+    background-image: url(/images/bg-desktop.svg);
+}
+
+.l-content_l_m{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.l-huddle_logo{
+    display: flex;
+    padding: 20px 30px;
+    width: 200px;
+    height: 36px;
+}
+
+.l-huddle_mockup{
+    display: flex;
+    padding: 10px 30px;
+    width: 676px;
+    height: 475px;
+}
+
+.l-content_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.l-heading{
+    display: flex;
+    font-family: var(--font-family);
+    color: white;
+    width: 300px;
+    height: 200px;
+}
+
+.l-paragraph{
+    display: flex;
+    font-family: var(--font-family);
+    color: white;
+    width: 300px;
+    height: 250px;
+}
+
+.l-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: 125px;
+    height: 45px;
+    font-family: var(--font-family);
+}
+
+.l-button:hover{
+    cursor: pointer;
+    background-color: var(--Soft-Magenta);
+}
